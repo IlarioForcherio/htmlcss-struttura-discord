@@ -32,9 +32,11 @@ header{
  }
  .nav-button{
     
-    width: 200px;
+    color: black;
+    width: 100px;
     height: 80px;
-    background-color: red;
+    background-color:white;
+    border-radius: 10px;
     
  }
 
@@ -103,12 +105,13 @@ header{
 /* column-container */
 
 .column-container{
-  display: flex;
-  width: 80%;
-  margin:0 auto;
-  background-color: rgb(48, 44, 44);
-  height: 400px; 
-  justify-content: space-between;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 400px;
+    background-color: rgb(18, 19, 18);
+    justify-content: space-around;
 }
 
 .col1{
@@ -118,11 +121,51 @@ header{
 }
 
 .col{
-    width: 200px;
+    width: 170px;
     height: 400px;
     background-color: rgb(53, 210, 53);
-    margin-left: 10px;
+    
 }
+
+
+
+/* banner-footer */
+
+.banner-container{
+    
+    width: 80%;
+    margin:0 auto;
+    height: 100px;
+    background-color: rgb(119, 119, 194);
+}
+
+.banner{
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    height: 100px;
+    margin-top: 10px;
+    background-color: rgb(55, 233, 224);
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.banner-button{
+    color: white;
+    border: 3px solid black;
+    background-color: rgb(34, 168, 230);
+    border-radius: 10px;
+
+}
+.banner-logo{
+    background-color: blue;
+}
+
+
+
+
+
+
 
 
 

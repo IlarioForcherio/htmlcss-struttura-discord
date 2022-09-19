@@ -5,28 +5,57 @@
 }
 header{
     width: 100%;
-    height: 200px;
+    height: 400px;
     background-color: rgb(53, 240, 240);
 }
 
 .nav-container{
-
+    display: flex;
     width: 80%;
-    height: 100px;
+    height: 80px;
     margin: 0 auto;
     background-color: rgb(55, 196, 196);
+    
 
 
 }
 
-.nav{
-
-
-
-}
  .nav-logo{
+    
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    
 
  }
  .nav-button{
+    
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    justify-content: flex-end;
+ }
+
+
+
+ h1,.header-paragraph {
+    padding: 20px;
+}
+ 
+.header-container{
+    text-align: center;
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    background-color: lightsalmon;
 
  }
+
+ .button {
+    border: 3px solid black;
+    display: inline;
+    background-color: pink;
+    border-radius: 10px;
+    margin: 20px;
+ }
+

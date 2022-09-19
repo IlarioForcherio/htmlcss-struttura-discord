@@ -99,6 +99,33 @@ header{
 
 /* section-main4 */
 
+/* footer */
+/* column-container */
+
+.column-container{
+  display: flex;
+  width: 80%;
+  margin:0 auto;
+  background-color: rgb(48, 44, 44);
+  height: 400px; 
+  justify-content: space-between;
+}
+
+.col1{
+    width: 200px;
+    height: 400px;
+    background-color: darkgreen;
+}
+
+.col{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(53, 210, 53);
+    margin-left: 10px;
+}
+
+
+
 
 
 

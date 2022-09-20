@@ -17,6 +17,7 @@ header{
     height: 80px;
     margin: 0 auto;
     background-color: rgb(55, 196, 196);
+    justify-content: space-between;
     
 
 
@@ -41,7 +42,7 @@ header{
  }
 
 /* sections header */
-
+/* h1-paragraph-button */
 
  h1,.header-paragraph {
     padding: 20px;
@@ -64,7 +65,7 @@ header{
     margin: 20px;
  }
  
- /* main container */
+ /* main-container */
  /* section1-main */
  
  .main-container{
@@ -74,7 +75,7 @@ header{
     margin-top: 10px;
     height: 400px;
     background-color: lightgreen;
-    justify-content: space-around;
+    justify-content: space-between;
     
  }
  
@@ -86,7 +87,27 @@ header{
     background-color: blue;
  }
 
-/*section-main2 */
+ .main-img {
+  flex-basis: 58%;
+  
+ }
+ .main-text{
+    flex-basis: 40%;
+    
+ }
+
+ /* section-2-main */
+ 
+ .order-1{
+    order: 1;
+
+ }
+ .order-2{
+    order: 2;
+    
+}
+
+/*section-main4 */
 
  .main2{
     display: flex;
@@ -97,9 +118,7 @@ header{
     flex-direction: column;
  }
 
- /* section-main3 */
-
-/* section-main4 */
+ 
 
 /* footer */
 /* column-container */
